@@ -1,0 +1,146 @@
+.header{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url('../../assets/doctor.jpg');
+  
+}
+
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  opacity:1;
+  margin-bottom: 0;
+  color:blueviolet;
+}
+.logo{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.logo-tree{
+  width: 5vw;
+  height: 5vh;
+  margin-top: 1vh;
+  margin-left: 0vw;
+}
+
+.titulo-rio{
+  margin-left: 5vw;
+  font-family: 'Signika', sans-serif;
+  width: 7vw;
+  font-weight: 600;
+  margin-right: 0;
+  
+  }
+.titulo-rio h3{
+  font-weight: 400;
+  margin-top: -3vh;
+  font-family: 'Merienda', cursive;
+}
+
+.titulo-rio h2{
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  font-family: 'Merienda', cursive;
+  font-size: 2rem;
+}
+
+.botoes{
+  width: 15vw;
+  margin-right: 8vw;
+  display:flex;
+  justify-content: space-between;
+  text-decoration: none;
+  border: none;
+  margin:3vh 5vw 5vh 5vw;
+}
+
+.subtitle{
+  font-size:4.69rem;
+  color:var(--color-primary);
+  width: 40%;
+  margin-top: -10vh;
+  margin-left: 15vw;
+  margin-bottom: 0;
+  font-weight: 900;
+  text-shadow: 6px 0px 5px rgba(83, 35, 138, 0.39);
+}
+.subtitle-small{
+  color:var(--color-primary);
+  width: 40%;
+  margin-left: 15vw;
+  margin-top: 0;
+  font-weight: 900;
+  text-shadow: 6px 0px 5px rgba(103,40,174,0.39);
+}
+.icone1 {
+  width:8vw;
+  height: 8vh;
+  color:#49C858;
+}
+.icone2 {
+  width:8vw;
+  height: 8vh;
+  color:#176cdb;
+}
+
+@media screen and (max-width: 600px){
+  .subtitle{
+    font-size: 2.5rem;
+    margin-top: 1vh;
+  }
+
+  .subtitle-small{
+    font-size: 0.5rem;
+  }
+
+  .header{
+    width: 100%;
+    height: 60vh;
+  }
+  .titulo-rio{
+    display:block;
+    font-size: 1rem;
+  }
+
+  .titulo-rio h2{
+    font-size: 1.5rem;
+  }
+  
+  .titulo-rio h3{
+    margin-top: -2vh;
+  }
+  .logo{
+    display:inline;
+    width:100%;
+    height: 50%;
+    margin:0;
+    padding: 0;
+  }
+
+  .nav-bar{
+    font-size: 0.8rem;
+  }
+
+    .botoes{
+      display:flex;
+      margin-top: 0;
+      gap:0.5rem;
+    }
+    
+    .icone1{
+      width: 5vw;
+      height: 5vh;
+    }
+    .icone2{
+      width: 5vw;
+      height: 5vh;
+    }
+}
