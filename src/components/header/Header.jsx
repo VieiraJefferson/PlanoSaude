@@ -17,9 +17,9 @@ const Header = () => {
       
         </div>
           
-            <div className='botoes'>
-                <a href="https://api.whatsapp.com/send/?phone=5522999252311&text&type=phone_number&app_absent=0"><FaWhatsapp className='icone1'/></a>
-                <a href="https://api.whatsapp.com/send/?phone=5522999252311&text&type=phone_number&app_absent=0"><FaFacebookSquare className='icone2'/></a>
+            <div className='button'>
+                <a href="https://api.whatsapp.com/send/?phone=5522999252311&text&type=phone_number&app_absent=0"><FaWhatsapp className='icon1'/></a>
+                <a href="https://api.whatsapp.com/send/?phone=5522999252311&text&type=phone_number&app_absent=0"><FaFacebookSquare className='icon2'/></a>
             </div>
         </div>
         <h1 className='subtitle'>Economize até 40% no Seu Plano de Saúde!</h1>
