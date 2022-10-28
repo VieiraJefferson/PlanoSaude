@@ -2,7 +2,7 @@
 # Heath care Landing Page
 > This a Landing Page example.
 
-![Portfolio](https://raw.github.com/Meri-MG/portfolio---react/master/src/assets/port.png)
+
 
 ## Built With
 
