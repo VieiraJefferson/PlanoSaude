@@ -24,14 +24,8 @@
   justify-content: center;
 }
 
-.logo-tree{
-  width: 5vw;
-  height: 5vh;
-  margin-top: 1vh;
-  margin-left: 0vw;
-}
 
-.titulo-rio{
+.title-rio{
   margin-left: 5vw;
   font-family: 'Signika', sans-serif;
   width: 7vw;
@@ -39,7 +33,7 @@
   margin-right: 0;
   
   }
-.titulo-rio h3{
+.title-rio h3{
   font-weight: 400;
   margin-top: -3vh;
   font-family: 'Merienda', cursive;
@@ -52,7 +46,7 @@
   font-size: 2rem;
 }
 
-.botoes{
+.button{
   width: 15vw;
   margin-right: 8vw;
   display:flex;
@@ -80,12 +74,12 @@
   font-weight: 900;
   text-shadow: 6px 0px 5px rgba(103,40,174,0.39);
 }
-.icone1 {
+.icon1 {
   width:8vw;
   height: 8vh;
   color:#49C858;
 }
-.icone2 {
+.icon2 {
   width:8vw;
   height: 8vh;
   color:#176cdb;
@@ -105,16 +99,16 @@
     width: 100%;
     height: 60vh;
   }
-  .titulo-rio{
+  .title-rio{
     display:block;
     font-size: 1rem;
   }
 
-  .titulo-rio h2{
+  .title-rio h2{
     font-size: 1.5rem;
   }
   
-  .titulo-rio h3{
+  .title-rio h3{
     margin-top: -2vh;
   }
   .logo{
@@ -129,17 +123,17 @@
     font-size: 0.8rem;
   }
 
-    .botoes{
+    .button{
       display:flex;
       margin-top: 0;
       gap:0.5rem;
     }
     
-    .icone1{
+    .icon1{
       width: 5vw;
       height: 5vh;
     }
-    .icone2{
+    .icon2{
       width: 5vw;
       height: 5vh;
     }
