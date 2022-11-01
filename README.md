@@ -62,5 +62,4 @@
 # Show your support
 Give a ⭐ if you like this project!
 
-# Acknowledgments
-Thanks to [MERI-MG](https://github.com/Meri-MG) inspiration!
+
